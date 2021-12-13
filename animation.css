@@ -1,0 +1,81 @@
+/*
+The CSS export should solely be used as a reference.
+For a more detailed animation export the JSON file should be used.
+*/
+#Ball {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ball__x__1 500ms 0ms linear forwards, Ball__x__2 500ms 500ms linear forwards, Ball__x__3 500ms 1000ms linear forwards, Ball__x__4 500ms 1500ms linear forwards, Ball__y__1 500ms 0ms linear forwards, Ball__y__2 500ms 500ms linear forwards, Ball__y__3 500ms 1000ms linear forwards, Ball__y__4 500ms 1500ms linear forwards;
+}
+
+@keyframes Ball__x__1 {
+    from {
+        left: 0.5px;
+    }
+
+    to {
+        left: 434px;
+    }
+}
+@keyframes Ball__x__2 {
+    from {
+        left: 434px;
+    }
+
+    to {
+        left: 434px;
+    }
+}
+@keyframes Ball__x__3 {
+    from {
+        left: 434px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
+@keyframes Ball__x__4 {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
+@keyframes Ball__y__1 {
+    from {
+        top: 30.5px;
+    }
+
+    to {
+        top: 30.5px;
+    }
+}
+@keyframes Ball__y__2 {
+    from {
+        top: 30.5px;
+    }
+
+    to {
+        top: 265px;
+    }
+}
+@keyframes Ball__y__3 {
+    from {
+        top: 265px;
+    }
+
+    to {
+        top: 265px;
+    }
+}
+@keyframes Ball__y__4 {
+    from {
+        top: 265px;
+    }
+
+    to {
+        top: 40px;
+    }
+}
