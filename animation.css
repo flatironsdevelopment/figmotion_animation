@@ -45,11 +45,11 @@ For a more detailed animation export the JSON file should be used.
 }
 @keyframes Ball__y__1 {
     from {
-        top: 30.5px;
+        top: 0px;
     }
 
     to {
-        top: 30.5px;
+        top: 0px;
     }
 }
 @keyframes Ball__y__2 {
@@ -76,6 +76,18 @@ For a more detailed animation export the JSON file should be used.
     }
 
     to {
-        top: 40px;
+        top: 0px;
     }
+}
+
+#content {
+  position: relative;
+  margin-top: 150px;
+  margin-left: 150px;
+}
+
+#content img {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
